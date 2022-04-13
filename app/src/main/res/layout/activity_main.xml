@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/topo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:layout_marginBottom="36dp">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6.1dp"
+            android:layout_marginRight="12.9dp"
+            android:background="@color/transparente"
+            android:src="@drawable/back" />
+
+        <ImageButton
+            android:id="@+id/foto"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/back"
+            android:background="@color/transparente"
+            android:src="@drawable/foto" />
+
+        <TextView
+            android:id="@+id/mother"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/foto"
+            android:text="@string/mother"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mother"
+            android:layout_toRightOf="@id/foto"
+            android:text="@string/online"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/menu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="28dp"
+            android:background="@color/transparente"
+            android:src="@drawable/menu" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/conteudo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topo"
+        android:layout_marginLeft="27dp">
+
+        <ImageView
+            android:id="@+id/message1"
+            android:layout_width="286dp"
+            android:layout_height="118dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/background_blue" />
+
+        <ImageView
+            android:id="@+id/message2"
+            android:layout_width="247dp"
+            android:layout_height="65dp"
+            android:layout_below="@id/message1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="19dp"
+            android:src="@drawable/background_grey"
+            android:layout_marginBottom="20dp"/>
+        <ImageView
+            android:id="@+id/message3"
+            android:layout_width="103dp"
+            android:layout_height="69dp"
+            android:src="@drawable/background_blue"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@id/message2"/>
+        <ImageView
+            android:id="@+id/message4"
+            android:layout_width="241dp"
+            android:layout_height="63dp"
+            android:src="@drawable/background_blue_resposta"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@id/message3"/>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="359dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/background_type"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_your_message" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/transparente"
+            android:src="@drawable/plus" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/transparente"
+            android:src="@drawable/emoji" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/transparente"
+            android:src="@drawable/camera" />
+    </LinearLayout>
+
+</RelativeLayout>
