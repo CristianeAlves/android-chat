@@ -3,11 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/crisa/AndroidStudioProjects/Chat/app/src/main/res/drawable/background_blue.xml" value="0.1695" />
         <entry key="..\:/Users/crisa/AndroidStudioProjects/Chat/app/src/main/res/drawable/background_blue_resposta.xml" value="0.208" />
         <entry key="..\:/Users/crisa/AndroidStudioProjects/Chat/app/src/main/res/drawable/background_grey.xml" value="0.208" />
         <entry key="..\:/Users/crisa/AndroidStudioProjects/Chat/app/src/main/res/drawable/background_message.xml" value="0.194" />
         <entry key="..\:/Users/crisa/AndroidStudioProjects/Chat/app/src/main/res/drawable/background_type.xml" value="0.208" />
+        <entry key="..\:/Users/crisa/AndroidStudioProjects/Chat/app/src/main/res/layout/activity_friends.xml" value="0.2359375" />
+        <entry key="..\:/Users/crisa/AndroidStudioProjects/Chat/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/crisa/AndroidStudioProjects/Chat/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/crisa/AndroidStudioProjects/Chat/app/src/main/res/layout/item_message.xml" value="0.25" />
+        <entry key="..\:/Users/crisa/AndroidStudioProjects/Chat/app/src/main/res/layout/item_message_blue.xml" value="0.25" />
+        <entry key="..\:/Users/crisa/AndroidStudioProjects/Chat/app/src/main/res/layout/item_message_grey.xml" value="0.25" />
+        <entry key="..\:/Users/crisa/AndroidStudioProjects/Chat/app/src/main/res/layout/item_message_photo.xml" value="0.25" />
+        <entry key="..\:/Users/crisa/AndroidStudioProjects/Chat/app/src/main/res/layout/login.xml" value="0.25" />
       </map>
     </option>
   </component>
